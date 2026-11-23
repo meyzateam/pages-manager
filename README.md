@@ -672,8 +672,4 @@ Sebelum mengirim perubahan:
 
 ---
 
-## Lisensi
 
-Repository ini belum menyertakan file `LICENSE`. Menjadikan repository GitHub bersifat **Public** tidak otomatis memberikan izin kepada pihak lain untuk menggunakan, memodifikasi, atau mendistribusikan source code.
-
-Tentukan dan tambahkan file lisensi sebelum menyatakan project ini sebagai open source atau mengizinkan penggunaan ulang oleh publik.
