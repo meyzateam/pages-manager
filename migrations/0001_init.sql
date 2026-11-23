@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS rotator_configs (
+  project_name TEXT PRIMARY KEY,
+  enabled INTEGER NOT NULL DEFAULT 0,
+  mode TEXT NOT NULL DEFAULT 'random',
+  targets_json TEXT NOT NULL DEFAULT '[]',
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE IF NOT EXISTS activity_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  action TEXT NOT NULL,
+  project_name TEXT,
+  detail TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

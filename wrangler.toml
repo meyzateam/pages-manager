@@ -1,0 +1,22 @@
+
+name = "pages-manager"
+compatibility_date = "2026-11-08"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "YOUR_D1_DATABASE_NAME"
+database_id = "YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Required session secret (set with Wrangler Pages secrets):
+# SESSION_SECRET
+
+# Legacy upgrade compatibility only:
+# LEGACY_CLOUDFLARE_ACCOUNT_ID
+# ADMIN_PASSWORD
+
+# Google Search Console integration secrets:
+# GOOGLE_OAUTH_CLIENT_ID
+# GOOGLE_OAUTH_CLIENT_SECRET
+# GOOGLE_OAUTH_REDIRECT_URL
